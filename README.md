@@ -29,7 +29,7 @@
 * 그리고 멜트다운은 예측 실행을 위해 권한 상승 취약점을 이용하지만 스펙터 취약점은 분기 예측 취약점을 이용합니다.
 
 * 멜트다운은 최종적으로 나오는 결과물이 커널 메모리를 읽어 오는 것이고, 스펙터는 다른 프로세스의 메모리를 가져오는 것입니다.
-![Meltdown-Spectre-comparison-table](/image/Meltdown-Spectre-comparison-table.png)
+![Meltdown-Spectre-comparison-table](/Meltdown-Spectre-comparison-table.png)
 이렇게 몇 가지 차이점이 있지만, 메모리를 유출시킨다는 점에서 비슷한 두 취약점이라고 볼 수 있습니다.
 
 ## 2.	예측 실행이란?
